@@ -1,4 +1,6 @@
 FROM jupyter/tensorflow-notebook:latest
+RUN python -m pip install --upgrade pip
+RUN pip install PyQt5
 RUN pip install Keras==2.2.4
 RUN pip install opencv-contrib-python
 RUN pip install tqdm
