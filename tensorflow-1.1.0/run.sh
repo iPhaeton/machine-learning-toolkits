@@ -1,0 +1,1 @@
+docker run -d -p 8888:8888 -v "$PWD":/root/work iphaeton/tensorflow-1.1.0:latest
